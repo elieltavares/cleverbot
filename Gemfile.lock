@@ -1,5 +1,5 @@
 PATH
-  remote: .
+  remote: https://github.com/elieltavares/cleverbot.git
   specs:
     cleverbot (1.0.0)
       json
