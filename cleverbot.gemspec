@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test)/}) }
   spec.require_paths = ['lib']
 
-
+  spec.add_development_dependency 'rake', '~> 11.2', '>= 11.2.2'
   spec.add_dependency('rest-client')
   spec.add_dependency('json', '~> 1.8', '>= 1.8.6')
 end
