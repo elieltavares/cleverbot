@@ -2,8 +2,11 @@ require 'bundler/gem_tasks'
 require 'rake/testtask'
 
 Rake::TestTask.new(:test)
-  puts 'haha'
+  puts 'Ok'
 
 
 
-task default: :test
+task default: :build
+task :build do
+  exec 'gem build cleverbot.gemspec'
+end
