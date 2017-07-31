@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/elieltavares/cleverbot.svg?branch=master)](https://travis-ci.org/elieltavares/cleverbot)
 # cleverbot
 
 A Ruby wrapper for the cleverbot.com API.
