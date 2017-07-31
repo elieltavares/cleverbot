@@ -38,9 +38,19 @@ Before using this module, please get your API keys at http://www.cleverbot.com/a
 require 'cleverbot'
 
 # Create a new Cleverbot instance, with an optional reference nick set.
-CLEVER = Cleverbot.new('api_key')
+CLEVER = Cleverbot::Client.new('api_key')
 
 # Talk with your pal, Cleverbot.
 CLEVER.say('Why am I still talking to you?')
 # => 'Because you have a beautiful soul.'
 ```
+## Identifier
+### Start a new conversation with Mike the symbol
+puts CLEVER.say('hello', :mike) #=> 'hello'
+puts CLEVER.say('my name is mike', :mike) #=> 'ok'
+### Start a new conversation with Zac the string.
+puts CLEVER.say('hello', 'Zac') #=> 'hello'
+puts CLEVER.say('my name is mike', 'Zac') #=> 'no it is zac'
+## Delete
+puts CLEVER.delete(:mike)
+puts CLEVER.delete('Zac')
