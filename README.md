@@ -24,6 +24,10 @@ And then execute:
 ```shell
 $ bundle install
 ```
+## LoadError: cannot load such file
+```ruby
+require 'bundler/setup'
+```
 
 ## Usage
 Be sure to look at the actual documentation for the cleverbot.com API when you are not sure about something. Or ask for documentation clarification in the issue tracker here.
