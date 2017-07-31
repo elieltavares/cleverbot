@@ -73,9 +73,9 @@ module Cleverbot
 
         @interactions[index] ||= {}
 
-        if k.match?(/interaction_\d+$/)
+        if k =~ (/interaction_\d+$/)
           @interactions[index][:input] = v
-        elsif k.match?(/interaction_\d+_other$/)
+        elsif k =~ (/interaction_\d+_other$/)
           @interactions[index][:output] = v
         end
       end
