@@ -46,11 +46,17 @@ CLEVER.say('Why am I still talking to you?')
 ```
 ## Identifier
 ### Start a new conversation with Mike the symbol
+```ruby
 puts CLEVER.say('hello', :mike) #=> 'hello'
 puts CLEVER.say('my name is mike', :mike) #=> 'ok'
+```
 ### Start a new conversation with Zac the string.
+```ruby
 puts CLEVER.say('hello', 'Zac') #=> 'hello'
 puts CLEVER.say('my name is mike', 'Zac') #=> 'no it is zac'
+```
 ## Delete
+```ruby
 puts CLEVER.delete(:mike)
 puts CLEVER.delete('Zac')
+```
