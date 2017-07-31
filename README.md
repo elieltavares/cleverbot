@@ -4,6 +4,15 @@ A Ruby wrapper for the cleverbot.com API.
 Adapted from cleverbot.io API for cleverbot.com
 
 ## Installation
+
+```bash
+gem install cbot
+```
+Or
+```bash
+sudo gem install cbot
+```
+
 ### Bundler
 Add this line to your Gemfile:
 ```ruby
