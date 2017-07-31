@@ -13,6 +13,7 @@ GEM
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     json (1.8.6)
+    rake (11.3.0)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
@@ -30,6 +31,7 @@ PLATFORMS
 
 DEPENDENCIES
   cbot!
+  rake (~> 11.2, >= 11.2.2)
 
 BUNDLED WITH
    1.15.3
