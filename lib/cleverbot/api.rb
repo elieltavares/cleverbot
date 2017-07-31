@@ -23,7 +23,7 @@ module Cleverbot
     # @param params [Hash] the params to query
     def get_request(route = '', params = {})
       params[:wrapper] = WRAPPER
-      response = RestClient.get "#{API_URL}/#{route}", params: params.compact
+      response = RestClient.get "#{API_URL}/#{route}", params: params
       JSON.parse response
     end
 
