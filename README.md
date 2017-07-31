@@ -5,19 +5,19 @@ Adapted from cleverbot.io API for cleverbot.com
 
 ## Installation
 
-```bash
+```shell
 gem install cbot
-```
-Or
-```bash
-sudo gem install cbot
 ```
 
 ### Bundler
 Add this line to your Gemfile:
 ```ruby
-gem 'cleverbot_rb', git: 'git@github.com:Reaver01/cleverbot_rb.git',
+gem 'cbot', git: 'git@github.com:elieltavares/cleverbot.git',
                     branch: 'master'
+```
+Or
+```ruby
+gem 'cbot'
 ```
 
 And then execute:
