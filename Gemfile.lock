@@ -1,7 +1,7 @@
 PATH
   remote: https://github.com/elieltavares/cleverbot.git
   specs:
-    cleverbot (1.0.0)
+    cbot (1.0.0)
       json
       rest-client
 
@@ -29,7 +29,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cleverbot!
+  cbot!
   json
   rest-client
 
